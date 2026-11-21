@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  
+  <!-- Forces iOS to open as a standalone full-screen app -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Gift Tracker">
+  
+  <!-- Custom Home Screen Icon -->
+  <link rel="apple-touch-icon" href="icon.png">
+  
+  <title>Gift Tracker</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; width: 100%; overflow: hidden; background: #1b5e20; }
+    iframe {
+      position: fixed;
+      top: env(safe-area-inset-top);
+      left: 0;
+      width: 100%;
+      height: calc(100% - env(safe-area-inset-top));
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <iframe src="https://script.google.com/a/macros/g.gcpsk12.org/s/AKfycbx26hdoE_GkLuLzieFxHUYcfblqVsbJzcS-eDPBtBml0E1-LKcTgkp3UifM8BOE-kz2/exec" allow="camera"></iframe>
+</body>
+</html>
